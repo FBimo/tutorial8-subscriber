@@ -9,3 +9,6 @@
     - "localhost:5672" adalah alamat server dan _port_ tempat server AMQP berjalan. 
     - "localhost" merujuk pada mesin tempat kita menjalankan aplikasi atau layanan AMQP, dan "5672" adalah nomor _port_ default yang digunakan oleh server AMQP. 
     - Jadi, secara keseluruhan, "guest:guest@localhost:5672" mengidentifikasi pengguna yang ingin mengakses server AMQP di mesin lokal (_localhost_) menggunakan nama pengguna "guest" dan kata sandi "guest", yang berjalan di _port_ 5672.
+3. _Slow Simulation_
+_Queue_ berjumlah 20 karena setiap _run_ akan mengirimkan lima data ke dalam _queue_. 
+![slow-simulation](image-1.png)
